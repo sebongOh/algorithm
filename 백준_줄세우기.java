@@ -42,6 +42,7 @@ public class 백준_줄세우기 {
 			res.add(cur);
 			for (int i = 0; i < list[cur].size(); i++) {
 				int num = list[cur].get(i);
+				
 				arr[num]--;
 				if (arr[num] == 0) {
 					q.add(num);
