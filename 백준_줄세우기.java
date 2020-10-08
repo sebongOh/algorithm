@@ -17,7 +17,7 @@ public class 백준_줄세우기 {
 		M = Integer.parseInt(str[1]);
 		list = new ArrayList[N + 1];
 		arr = new int[N + 1];
-		for (int i = 0; i < N+1; i++) {
+		for (int i = 0; i < N + 1; i++) {
 			list[i] = new ArrayList<Integer>();
 		}
 
@@ -28,8 +28,7 @@ public class 백준_줄세우기 {
 			list[x].add(y);
 			arr[y]++;
 		}
-		
-		
+
 		Queue<Integer> q = new LinkedList<Integer>();
 		Queue<Integer> res = new LinkedList<Integer>();
 		for (int i = 1; i < N + 1; i++) {
@@ -49,12 +48,10 @@ public class 백준_줄세우기 {
 				}
 			}
 		}
-		
-		while(!res.isEmpty()) {
-			System.out.print(res.poll()+" ");
+
+		while (!res.isEmpty()) {
+			System.out.print(res.poll() + " ");
 		}
-		
-		
 
 	}
 }
