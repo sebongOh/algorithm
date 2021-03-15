@@ -31,7 +31,7 @@ public class 프로그래머스_체육복 {
 				}
 			}
 		}
-		
+
 		for (int i = 0; i < arr.length; i++) {
 			if (!(arr[i] < 0)) {
 				res++;
